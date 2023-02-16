@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="parent">
+        <h2>Sign Up</h2>
+        <form name="myForm" onsubmit="return validateForm()">
+           <br>
+           <p>
+             <input type="text" name="Ime" placeholder="Enter Name" id="name"><p ></p>
+          </p>
+          <br>
+          <p>
+              <input type="text" name="Prezime" placeholder="Enter Last Name" id="lastname">
+         </p>
+         <br>
+          <p>
+              <input type="email" name="Email" placeholder="Enter Email" id="email2">
+          </p>
+          <br>
+          <p>
+              <input type="email" name="ConfirmEmail" placeholder="Confirm Email" id="emailc">
+          </p>
+          <br>
+          <p>
+              <input type="password" name="Password" placeholder="Enter Password" id="Password">
+          </p>
+          <br>
+          <p>
+              <input type="password" name="ConfirmPassword" placeholder="Confirm Password" id="PasswordC">
+          </p>
+          <br>
+          <p>
+          <input id="btn" type="submit" name="btn" value="submit">
+          </p>
+        </form>
+      </div>
+      
+     <script src="app.js"></script>
+</body>
+</html>
